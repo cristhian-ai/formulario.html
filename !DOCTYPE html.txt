@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag formulario</title>
+    <style>
+         body{
+            background-color: burlywood;
+        
+        }
+        
+        
+        
+        
+    </style>
+</head>
+<body>
+   <h1>BIBLIOTECA</h1>
+    <form action="">
+        <label for="nome">Nome do usuario:</label>
+         <br><input type="text" id="nome">
+        <br>
+        <br>
+        <label for="nome">Matricula:</label>
+        <br> <input type="text" id="nome">
+        <br>
+        <br>
+
+        <label for="nome">CPF:</label>
+       <br> <input type="text" id="nome">
+        <br>
+        <br>
+
+        <label for="nome">ISBN do livro:</label>
+       <br> <input type="text" id="nome">
+        <br>
+        <br>
+
+        <label for="nome">Titulo do livro:</label>
+       <br> <input type="text" id="nome">
+        <br>
+        <br>
+
+        <label for="nome">Autor do livro:</label>
+        <br> <input type="text" id="nome">
+        <br>
+        <br>
+        data emprestimo:
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        data de devolução:
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <label for="nome">Dias de emprestimo:</label>
+       <br> <input type="text" id="nome">
+        <br>
+        <input type="button" value="Emprestar">
+        <input type="button" value="Recusar">
